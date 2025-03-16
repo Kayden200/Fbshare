@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: Ryle Spam-Share
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    region: oregon
+    branches:
+      - main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: FACEBOOK_EMAIL
+        sync: false
+      - key: FACEBOOK_PASSWORD
+        sync: false
