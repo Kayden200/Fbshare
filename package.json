@@ -1,0 +1,26 @@
+{
+  "name": "Ryle Spam-Share",
+  "version": "1.0.0",
+  "description": "A Facebook Spam Share automation tool",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "nodemon api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "axios": "^1.3.4",
+    "selenium-webdriver": "^4.10.0",
+    "selenium-stealth": "^1.0.7" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "author": "RYLE",
+  "license": "MIT"
+}
