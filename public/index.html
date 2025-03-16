@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FB Spam Share</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="glow">FB Spam Share</h1>
+
+    <form id="spamShareForm">
+        <h3>Facebook AppState (c_user, xs, fr)</h3>
+        <input type="text" id="c_user" placeholder="c_user">
+        <input type="text" id="xs" placeholder="xs">
+        <input type="text" id="fr" placeholder="fr">
+
+        <h3>OR Enter c3c_fbstate</h3>
+        <input type="text" id="c3c_fbstate" placeholder="c3c_fbstate">
+
+        <h3>Spam Share Settings</h3>
+        <input type="text" id="urls" placeholder="Post URL" required>
+        <input type="number" id="shareCount" placeholder="Number of Shares" required>
+
+        <button type="submit" id="submit-button">Spam Share</button>
+    </form>
+
+    <div id="result" style="display:none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
